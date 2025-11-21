@@ -32,7 +32,13 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
 }
 
-h1, p {
+h1, p, {
   text-align: center;
 }
 
+#hero {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+}
